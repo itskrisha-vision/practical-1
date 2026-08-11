@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reset Password</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:white;
+}
+
+.container{
+    width:550px;
+}
+
+h1{
+    text-align:center;
+    font-size:48px;
+    font-family:Georgia, serif;
+    margin-bottom:80px;
+    font-weight:normal;
+}
+
+.input-box{
+    margin-bottom:40px;
+}
+
+input{
+    width:100%;
+    border:none;
+    border-bottom:2px solid black;
+    padding:12px 10px;
+    font-size:22px;
+    outline:none;
+}
+
+button{
+    width:100%;
+    padding:18px;
+    font-size:22px;
+    border:2px solid black;
+    border-radius:15px;
+    background:white;
+    cursor:pointer;
+    margin-top:20px;
+}
+
+button:hover{
+    background:#f2f2f2;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Reset Password</h1>
+
+    <div class="input-box">
+        <input type="email" placeholder="Email">
+    </div>
+
+    <div class="input-box">
+        <input type="password" placeholder="Password">
+    </div>
+
+    <div class="input-box">
+        <input type="password" placeholder="Confirm Password">
+    </div>
+
+    <button><a href="login.html">Login</a></button>
+
+</div>
+
+</body>
+</html>

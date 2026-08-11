@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+        }
+
+        .container{
+            width:500px;
+            border:1px solid #ccc;
+            border-radius:8px;
+            padding:30px;
+        }
+
+        h1{
+            text-align:center;
+            margin-bottom:20px;
+        }
+
+        .details{
+            margin-bottom:25px;
+            line-height:30px;
+        }
+
+        label{
+            font-weight:bold;
+        }
+
+        input,
+        textarea{
+            width:100%;
+            padding:10px;
+            margin-top:5px;
+            margin-bottom:15px;
+            border:1px solid #999;
+            border-radius:5px;
+            font-size:15px;
+        }
+
+        textarea{
+            resize:none;
+            height:100px;
+        }
+
+        .buttons{
+            display:flex;
+            justify-content:space-between;
+            margin-top:10px;
+        }
+
+        button{
+            width:48%;
+            height:40px;
+            background:green;
+            color:white;
+            border:none;
+            border-radius:5px;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Contact Us</h1>
+
+    <div class="details">
+        <p><b>College Name:</b> ABC College</p>
+        <p><b>Email:</b> abccollege@gmail.com</p>
+        <p><b>Phone:</b> +91 9876543210</p>
+        <p><b>Address:</b> Surat, Gujarat</p>
+    </div>
+
+    <form action="dashboard.html">
+
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Message</label>
+        <textarea placeholder="Enter your message" required></textarea>
+
+        <div class="buttons">
+            <button type="submit">Send</button>
+
+            <button type="button"
+            onclick="window.location.href='dashboard.html'">
+                Back
+            </button>
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>

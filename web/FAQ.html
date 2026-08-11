@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+        }
+
+        .container{
+            width:700px;
+            border:1px solid #ccc;
+            border-radius:8px;
+            padding:30px;
+        }
+
+        h1{
+            text-align:center;
+            margin-bottom:25px;
+        }
+
+        .faq{
+            margin-bottom:20px;
+        }
+
+        .faq h3{
+            color:#333;
+            margin-bottom:8px;
+        }
+
+        .faq p{
+            color:#555;
+            line-height:24px;
+        }
+
+        button{
+            width:180px;
+            height:40px;
+            background:green;
+            color:white;
+            border:none;
+            border-radius:5px;
+            font-size:16px;
+            cursor:pointer;
+            display:block;
+            margin:20px auto 0;
+        }
+
+        button:hover{
+            background:darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Frequently Asked Questions (FAQ)</h1>
+
+    <div class="faq">
+        <h3>1. How do I log in?</h3>
+        <p>Go to the Login page and enter your Student ID and Password.</p>
+    </div>
+
+    <div class="faq">
+        <h3>2. How can I view my profile?</h3>
+        <p>After logging in, click on the <b>Profile</b> option from the Dashboard.</p>
+    </div>
+
+    <div class="faq">
+        <h3>3. How do I check my timetable?</h3>
+        <p>Open the Dashboard and click on the <b>Timetable</b> option.</p>
+    </div>
+
+    <div class="faq">
+        <h3>4. How can I reset my password?</h3>
+        <p>Click on the <b>Reset Password</b> option from the Dashboard.</p>
+    </div>
+
+    <div class="faq">
+        <h3>5. How do I contact the college?</h3>
+        <p>Open the <b>Contact Us</b> page and use the contact details provided.</p>
+    </div>
+
+    <button type="button" onclick="window.location.href='dashboard.html'">
+        Back to Dashboard
+    </button>
+
+</div>
+
+</body>
+</html>

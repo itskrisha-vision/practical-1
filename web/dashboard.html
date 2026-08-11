@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Dashboard</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+body{
+    background:#f4f6f9;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+}
+
+header h1{
+    font-size:32px;
+}
+
+.home a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.logo img{
+    width:70px;
+    height:70px;
+}
+
+/* Dashboard */
+
+.dashboard{
+    width:90%;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+/* Cards */
+
+.card{
+    background:white;
+    border:2px solid black;
+    border-radius:15px;
+    height:180px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.card:hover{
+    background:#dbeafe;
+}
+
+.icon{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.card a{
+    text-decoration:none;
+    color:black;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.card a:hover{
+    color:blue;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="home">
+        <a href="homepage.html">🏠 Home</a>
+    </div>
+
+    <h1>Student Dashboard</h1>
+
+    <div class="logo">
+        <a href="homepage.html">
+            <img src="logo.jpeg" alt="Logo">
+        </a>
+    </div>
+
+</header>
+
+<div class="dashboard">
+
+    <div class="card">
+        <div class="icon">👨‍💼</div>
+        <a href="admin.html">Admin</a>
+    </div>
+
+    <div class="card">
+        <div class="icon">👤</div>
+        <a href="profile.html">Profile</a>
+    </div>
+
+    <div class="card">
+        <div class="icon">📅</div>
+        <a href="events.html">Events</a>
+    </div>
+
+    <div class="card">
+        <div class="icon">💬</div>
+        <a href="feedback.html">Feedback</a>
+    </div>
+
+    <div class="card">
+        <div class="icon">❓</div>
+        <a href="faq.html">FAQ</a>
+    </div>
+
+    <div class="card">
+        <div class="icon">📞</div>
+        <a href="contact.html">Contact</a>
+    </div>
+
+</div>
+
+</body>
+</html>

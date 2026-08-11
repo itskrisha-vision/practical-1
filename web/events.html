@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Events</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+        }
+
+        .container{
+            width:750px;
+            border:1px solid #ccc;
+            border-radius:8px;
+            padding:30px;
+        }
+
+        h1{
+            text-align:center;
+            margin-bottom:25px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-bottom:20px;
+        }
+
+        th, td{
+            border:1px solid #999;
+            padding:12px;
+            text-align:center;
+        }
+
+        th{
+            background:#f2f2f2;
+        }
+
+        tr:nth-child(even){
+            background:#fafafa;
+        }
+
+        button{
+            width:180px;
+            height:40px;
+            background:green;
+            color:white;
+            border:none;
+            border-radius:5px;
+            font-size:16px;
+            cursor:pointer;
+            display:block;
+            margin:auto;
+        }
+
+        button:hover{
+            background:darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>College Events</h1>
+
+    <table>
+
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Venue</th>
+        </tr>
+
+        <tr>
+            <td>Tech Fest</td>
+            <td>10 Aug 2026</td>
+            <td>Seminar Hall</td>
+        </tr>
+
+        <tr>
+            <td>Sports Day</td>
+            <td>18 Aug 2026</td>
+            <td>College Ground</td>
+        </tr>
+
+        <tr>
+            <td>Cultural Program</td>
+            <td>25 Aug 2026</td>
+            <td>Auditorium</td>
+        </tr>
+
+        <tr>
+            <td>AI Workshop</td>
+            <td>30 Aug 2026</td>
+            <td>Computer Lab</td>
+        </tr>
+
+    </table>
+
+    <button type="button"
+    onclick="window.location.href='dashboard.html'">
+        Back to Dashboard
+    </button>
+
+</div>
+
+</body>
+</html>
